@@ -1,5 +1,29 @@
-let text = "this is sumit"
+let text = "   f"
 
+// console.log(text.split(''))
+// console.log(text.split('').length)
+
+let x = 5
+
+// text = text.split('')
+// for(let e of text){
+//     console.log(text.length,text)
+//     if(e === " "){
+//         console.log("space")
+//     }
+// }
+
+console.log(text.split('').filter((element)=>{return element !== " "}).length) //alternative / working fine
+
+// no = text.split(' ')
+
+// for(let e of no){
+//    if(e.split("").length>1){
+//     console.log(e)
+//    }
+// }
+
+// console.log(no, no.length)
 
 // let upperCaseElement = text.split(' ')[0].split('')[0].toUpperCase()
 // let firstElement = text.split(' ')[0].split('')[0]
